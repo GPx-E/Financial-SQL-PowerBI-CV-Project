@@ -33,8 +33,8 @@ Before starting the project architecture and reasoning, it would be nice to know
 
   - SQL (modeling).
   - Google Cloud BigQuery (Data warehouse).
-  - PowerBI (modeling data and dashboards)
-  - DAX (KPI and bussines metrics)
+  - PowerBI (modeling data and dashboards).
+  - DAX (KPI and bussines metrics).
 
 ## SQL and BigQuery
 
@@ -61,7 +61,7 @@ Following the data estructure and how all tables where related by id columns, th
   These tables contain measurable business events and numeric metrics.
     - core_transactions: Financial activity between accounts.
     - core_loans: Loan information including principal and interest.
-    - core_accounts: Account-level financial metrics
+    - core_accounts: Account level financial metrics.
 
 2) DIMENSIONAL TABLES
 
@@ -123,11 +123,11 @@ Two dashboards were developed to demonstrate different analytical perspectives:
 
 This project demonstrates an end-to-end analytical workflow covering:
 
-1) Data ingestion and transformation in BigQuery
-2) Data warehouse layering (stage → core)
-3) Analytical data modelling
-4) Power BI integration using DirectQuery
-5) DAX measure design and metric standardisation
+1) Data ingestion and transformation in BigQuery.
+2) Data warehouse layering (stage to core).
+3) Analytical data modelling.
+4) Power BI integration using DirectQuery.
+5) DAX measure design and metric standardisation.
 
 ## EXTRA INFORMATION
 To maintain a proper reading structure, I recommend opening the 1-Creation_Core_Tables.sql first, followed by 2-Fill_&_Fix_Core_Tables.sql. After that, opening PowerBI.pbix. Additionally, the dataset has too many different CSV achives so, to optimise space and improve reading of the project, I uploaded all the data used in a zip achive (Data from Kaggle.zip).
